@@ -1,5 +1,11 @@
+import { PageOne } from "./pages";
+
 function App() {
-    return <div>Hi</div>;
+    return (
+        <div aria-label="main" className="w-full">
+            <PageOne />
+        </div>
+    );
 }
 
 export default App;
