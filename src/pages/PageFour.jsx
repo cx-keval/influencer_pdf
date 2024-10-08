@@ -114,7 +114,7 @@ const PageFour = () => {
     };
 
     return (
-        <div className="flex flex-1 flex-col p-6">
+        <div className="flex flex-1 flex-col p-4">
             <div className="flex gap-4">
                 <div className="flex-1">
                     <SectionHeader
@@ -223,6 +223,10 @@ const Card = () => {
                 <div className="absolute bottom-2 left-2 right-2 z-[10] flex items-center justify-between rounded-md text-xs text-white">
                     <div className="flex items-center gap-1">
                         <span className="item-center flex gap-1 font-medium text-white">
+                            <CXSocialIcon
+                                platform="instagram"
+                                className="h-4 w-4"
+                            />
                             Instagram
                         </span>
                     </div>
