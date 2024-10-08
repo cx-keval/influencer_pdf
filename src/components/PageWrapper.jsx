@@ -4,7 +4,7 @@ const PageWrapper = ({ children }) => {
             <div className="flex min-h-[55px] items-center justify-between border-b px-4">
                 <div className="flex flex-1 items-center gap-2">
                     <img
-                        src="https://imgigp.modash.io/v2?mb0KwpL92uYofJiSjDn1%2F6peL1lBwv3s%2BUvShHERlDY6%2BlN4nI8g5ywMDf0jnSXRpjYDM%2FopG6LEn5yybjPwMC7q%2BDaxyT%2F%2FL0IAHSjFLGXYyTdtc97YFhND8dFFRvhmgNlJUwVYqIiahjW32e%2BqWA%3D%3D"
+                        src="https://yt3.googleusercontent.com/ytc/AIdro_lISfErzX3mYCJTAcWWzz572I6wZQvr2JWEudZx1A=s480-c-k-c0x00ffffff-no-rj"
                         alt="profile"
                         className="h-[35px] w-[35px] rounded-md"
                     />

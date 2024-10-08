@@ -11,6 +11,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.19.0",
     "apexcharts": "^3.54.0",
     "millify": "^6.1.0",
     "moment": "^2.30.1",
