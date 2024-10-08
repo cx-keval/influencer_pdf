@@ -1,5 +1,5 @@
 import PageWrapper from "./components/PageWrapper";
-import { PageFour, PageOne, PageThree, PageTwo } from "./pages";
+import { PageFive, PageFour, PageOne, PageThree, PageTwo } from "./pages";
 
 function App() {
     return (
@@ -16,6 +16,10 @@ function App() {
 
             <PageWrapper>
                 <PageFour />
+            </PageWrapper>
+
+            <PageWrapper>
+                <PageFive />
             </PageWrapper>
         </div>
     );
