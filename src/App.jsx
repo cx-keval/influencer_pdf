@@ -1,5 +1,6 @@
 import PageWrapper from "./components/PageWrapper";
 import {
+    PageEight,
     PageFive,
     PageFour,
     PageOne,
@@ -36,6 +37,10 @@ function App() {
 
             <PageWrapper>
                 <PageSeven />
+            </PageWrapper>
+
+            <PageWrapper>
+                <PageEight />
             </PageWrapper>
         </div>
     );
