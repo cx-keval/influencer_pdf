@@ -287,11 +287,6 @@ const PageFive = () => {
                         >
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-1">
-                                    <img
-                                        src="https://flagcdn.com/w320/in.png"
-                                        alt="flag"
-                                        className="h-3.5 w-auto shrink-0 object-contain"
-                                    />
                                     <p>Country {i + 1}</p>
                                 </div>
 
@@ -320,11 +315,6 @@ const PageFive = () => {
                         >
                             <div className="flex items-center justify-between">
                                 <div className="flex items-center gap-1">
-                                    <img
-                                        src="https://flagcdn.com/w320/in.png"
-                                        alt="flag"
-                                        className="h-3.5 w-auto shrink-0 object-contain"
-                                    />
                                     <p>Language {i + 1}</p>
                                 </div>
 

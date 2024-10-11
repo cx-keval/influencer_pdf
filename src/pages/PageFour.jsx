@@ -1,6 +1,7 @@
 import { IconInfoCircle, IconHeart, IconBrandLine } from "@tabler/icons-react";
 import SectionHeader from "../components/SectionHeader";
 import Chart from "react-apexcharts";
+import { CXSocialIcon } from "../components/CXSocialIcon";
 
 const METRICS = [
     {
