@@ -3,6 +3,7 @@ import {
     PageFive,
     PageFour,
     PageOne,
+    PageSeven,
     PageSix,
     PageThree,
     PageTwo,
@@ -31,6 +32,10 @@ function App() {
 
             <PageWrapper>
                 <PageSix />
+            </PageWrapper>
+
+            <PageWrapper>
+                <PageSeven />
             </PageWrapper>
         </div>
     );
