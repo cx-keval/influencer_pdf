@@ -1,6 +1,6 @@
-import { DotsSVG } from "../components/SVGs";
+import { DotsSVG } from "./SVGs";
 
-const PageOne = ({ platform = "Instagram" }) => {
+const IntroPage = ({ platform = "Instagram" }) => {
     return (
         <section className="mx-auto flex aspect-[841/594] h-screen w-auto flex-col overflow-hidden border">
             <div className="flex flex-1">
@@ -70,4 +70,4 @@ const PageOne = ({ platform = "Instagram" }) => {
     );
 };
 
-export default PageOne;
+export default IntroPage;

@@ -1,49 +1,52 @@
-import PageWrapper from "./components/PageWrapper";
-import {
-    PageEight,
-    PageFive,
-    PageFour,
-    PageOne,
-    PageSeven,
-    PageSix,
-    PageThree,
-    PageTwo,
-} from "./pages";
+// import PageWrapper from "./components/PageWrapper";
+// import {
+//     PageEight,
+//     PageFive,
+//     PageFour,
+//     PageOne,
+//     PageSeven,
+//     PageSix,
+//     PageThree,
+//     PageTwo,
+// } from "./pages";
+import IGReport from "./IGReport";
 
 function App() {
-    return (
-        <div aria-label="main" className="w-full">
-            <PageOne />
+    return <IGReport />;
 
-            <PageWrapper>
-                <PageTwo />
-            </PageWrapper>
+    // return (
+    //     <div aria-label="main" className="w-full">
+    //         <PageOne />
 
-            <PageWrapper>
-                <PageThree />
-            </PageWrapper>
+    //         <PageWrapper>
+    //             <PageTwo />
+    //         </PageWrapper>
 
-            <PageWrapper>
-                <PageFour />
-            </PageWrapper>
+    //         <PageWrapper>
+    //             <PageThree />
+    //         </PageWrapper>
 
-            <PageWrapper>
-                <PageFive />
-            </PageWrapper>
+    //         <PageWrapper>
+    //             <PageFour />
+    //         </PageWrapper>
 
-            <PageWrapper>
-                <PageSix />
-            </PageWrapper>
+    //         <PageWrapper>
+    //             <PageFive />
+    //         </PageWrapper>
 
-            <PageWrapper>
-                <PageSeven />
-            </PageWrapper>
+    //         <PageWrapper>
+    //             <PageSix />
+    //         </PageWrapper>
 
-            <PageWrapper>
-                <PageEight />
-            </PageWrapper>
-        </div>
-    );
+    //         <PageWrapper>
+    //             <PageSeven />
+    //         </PageWrapper>
+
+    //         <PageWrapper>
+    //             <PageEight />
+    //         </PageWrapper>
+    //     </div>
+    // );
 }
 
 export default App;
