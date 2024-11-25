@@ -1,52 +1,37 @@
-// import PageWrapper from "./components/PageWrapper";
-// import {
-//     PageEight,
-//     PageFive,
-//     PageFour,
-//     PageOne,
-//     PageSeven,
-//     PageSix,
-//     PageThree,
-//     PageTwo,
-// } from "./pages";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import IGReport from "./IGReport";
+import YTReport from "./YTReport";
+import TTReport from "./TTReport";
 
 function App() {
-    return <IGReport />;
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route
+                    element={
+                        <div className="p-10">
+                            <Link to="/ig" className="my-2 block underline">
+                                Instagram
+                            </Link>
+                            <Link to="/yt" className="my-2 block underline">
+                                YouTube
+                            </Link>
+                            <Link to="/tt" className="my-2 block underline">
+                                TikTok
+                            </Link>
+                        </div>
+                    }
+                    path="/"
+                />
 
-    // return (
-    //     <div aria-label="main" className="w-full">
-    //         <PageOne />
+                <Route element={<IGReport />} path="/ig" />
 
-    //         <PageWrapper>
-    //             <PageTwo />
-    //         </PageWrapper>
+                <Route element={<YTReport />} path="/yt" />
 
-    //         <PageWrapper>
-    //             <PageThree />
-    //         </PageWrapper>
-
-    //         <PageWrapper>
-    //             <PageFour />
-    //         </PageWrapper>
-
-    //         <PageWrapper>
-    //             <PageFive />
-    //         </PageWrapper>
-
-    //         <PageWrapper>
-    //             <PageSix />
-    //         </PageWrapper>
-
-    //         <PageWrapper>
-    //             <PageSeven />
-    //         </PageWrapper>
-
-    //         <PageWrapper>
-    //             <PageEight />
-    //         </PageWrapper>
-    //     </div>
-    // );
+                <Route element={<TTReport />} path="/tt" />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;

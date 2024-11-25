@@ -1,16 +1,26 @@
-const PageWrapper = ({ children }) => {
+import { CXSocialIcon } from "./CXSocialIcon";
+
+const PageWrapper = ({ children, platform = "instagram" }) => {
     return (
         <section className="mx-auto flex aspect-[841/594] h-screen w-auto flex-col overflow-hidden border">
             <div className="flex min-h-[55px] items-center justify-between border-b px-4">
                 <div className="flex flex-1 items-center gap-2">
                     <img
-                        src="https://yt3.googleusercontent.com/ytc/AIdro_lISfErzX3mYCJTAcWWzz572I6wZQvr2JWEudZx1A=s480-c-k-c0x00ffffff-no-rj"
+                        src="https://ik.imagekit.io/culturex/instagram/realdonaldtrump/realdonaldtrump.jpg"
                         alt="profile"
                         className="h-[35px] w-[35px] rounded-md"
                     />
                     <div className="flex-1 overflow-hidden">
-                        <p className="truncate font-medium text-slate-600">
-                            Ashish Chanchlani - Instagram
+                        <p className="flex items-center gap-2 truncate font-medium text-slate-600">
+                            Ashish Chanchlani -{" "}
+                            <span className="flex items-center gap-1 capitalize">
+                                <CXSocialIcon
+                                    platform={platform}
+                                    width={14}
+                                    height={14}
+                                />
+                                {platform}
+                            </span>
                         </p>
                         <p className="truncate text-sm text-slate-400">
                             Mega Influencer | 29/05/2024

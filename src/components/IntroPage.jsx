@@ -1,3 +1,4 @@
+import { CXSocialIcon } from "./CXSocialIcon";
 import { DotsSVG } from "./SVGs";
 
 const IntroPage = ({ platform = "Instagram" }) => {
@@ -16,7 +17,10 @@ const IntroPage = ({ platform = "Instagram" }) => {
                             <span className="text-slate-400">
                                 Influencer Type:
                             </span>
-                            <span className="font-semibold uppercase text-slate-600">
+                            <span className="flex items-center gap-1.5 font-semibold uppercase text-slate-600">
+                                <CXSocialIcon
+                                    platform={platform.toLowerCase()}
+                                />
                                 MEGA
                             </span>
                         </p>

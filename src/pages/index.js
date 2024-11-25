@@ -6,6 +6,7 @@ import PageSeven from "./PageSeven";
 import PageSix from "./PageSix";
 import PageThree from "./PageThree";
 import PageTwo from "./PageTwo";
+import ProfileOverviewWithSocialScore from "./ProfileOverviewWithSocialScore";
 
 export {
     PageOne,
@@ -16,4 +17,5 @@ export {
     PageSix,
     PageSeven,
     PageEight,
+    ProfileOverviewWithSocialScore,
 };

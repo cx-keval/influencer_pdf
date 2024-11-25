@@ -1,16 +1,16 @@
 import { IntroPage, PageWrapper } from "./components";
 import { ProfileOverviewWithSocialScore } from "./pages";
 
-const IGReport = () => {
+const TTReport = () => {
     return (
         <div aria-label="main" className="w-full">
-            <IntroPage platform="instagram" />
+            <IntroPage platform="TikTok" />
 
-            <PageWrapper platform="instagram">
-                <ProfileOverviewWithSocialScore platform="instagram" />
+            <PageWrapper platform="tiktok">
+                <ProfileOverviewWithSocialScore platform="tiktok" />
             </PageWrapper>
         </div>
     );
 };
 
-export default IGReport;
+export default TTReport;

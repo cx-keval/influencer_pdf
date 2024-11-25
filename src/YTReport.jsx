@@ -1,16 +1,16 @@
 import { IntroPage, PageWrapper } from "./components";
 import { ProfileOverviewWithSocialScore } from "./pages";
 
-const IGReport = () => {
+const YTReport = () => {
     return (
         <div aria-label="main" className="w-full">
-            <IntroPage platform="instagram" />
+            <IntroPage platform="YouTube" />
 
-            <PageWrapper platform="instagram">
-                <ProfileOverviewWithSocialScore platform="instagram" />
+            <PageWrapper platform="youtube">
+                <ProfileOverviewWithSocialScore platform="youtube" />
             </PageWrapper>
         </div>
     );
 };
 
-export default IGReport;
+export default YTReport;
