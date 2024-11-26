@@ -117,7 +117,19 @@ const AgeSplit = () => {
 
     return (
         <div className="col-span-2 flex flex-col space-y-2 rounded-lg border p-4">
-            <p className="text-sm font-medium text-slate-600">Age Split</p>
+            <p className="flex items-center justify-between text-sm font-medium text-slate-600">
+                Age Split
+                <div className="flex items-center justify-center gap-2">
+                    <div className="flex items-center justify-center gap-1 rounded-full border px-2 py-0.5 text-sm font-medium text-slate-600">
+                        <span className="h-2 w-2 rounded-full bg-blue-400" />
+                        Male
+                    </div>
+                    <div className="flex items-center justify-center gap-1 rounded-full border px-2 py-0.5 text-sm font-medium text-slate-600">
+                        <span className="h-2 w-2 rounded-full bg-blue-200" />
+                        Female
+                    </div>
+                </div>
+            </p>
 
             <div className="flex-1">
                 <Chart
