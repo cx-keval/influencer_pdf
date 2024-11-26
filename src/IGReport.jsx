@@ -4,6 +4,7 @@ import {
     ProfileOverviewWithSocialScore,
     AudienceOverviewCredibilityGeography,
     AudienceDemographyAndTopFollowers,
+    TopFollowersWithSimilarProfiles,
 } from "./pages";
 
 const IGReport = () => {
@@ -28,7 +29,11 @@ const IGReport = () => {
             </PageWrapper>
 
             <PageWrapper platform="instagram">
-                <AudienceDemographyAndTopFollowers />
+                <AudienceDemographyAndTopFollowers platform="instagram" />
+            </PageWrapper>
+
+            <PageWrapper platform="instagram">
+                <TopFollowersWithSimilarProfiles />
             </PageWrapper>
         </div>
     );

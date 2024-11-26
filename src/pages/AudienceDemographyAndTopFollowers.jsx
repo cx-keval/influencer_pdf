@@ -5,7 +5,7 @@ import {
     ProfileItemCard,
 } from "../components";
 
-const AudienceDemographyAndTopFollowers = () => {
+const AudienceDemographyAndTopFollowers = ({ platform }) => {
     return (
         <div className="flex-1 p-4">
             <SectionHeader
@@ -20,7 +20,7 @@ const AudienceDemographyAndTopFollowers = () => {
             </div>
 
             <SectionHeader
-                title="Top Followers"
+                title={`Top ${platform === "youtube" ? "Subscribers" : "Followers"}`}
                 description="This section lists the most influential followers (top 8)of the influencer."
                 className="mt-4"
             />
