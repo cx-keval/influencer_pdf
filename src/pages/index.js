@@ -1,3 +1,4 @@
+import ContentAnalysis from "./ContentAnalysis";
 import PageEight from "./PageEight";
 import PageFive from "./PageFive";
 import PageFour from "./PageFour";
@@ -18,4 +19,5 @@ export {
     PageSeven,
     PageEight,
     ProfileOverviewWithSocialScore,
+    ContentAnalysis,
 };

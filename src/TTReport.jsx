@@ -1,5 +1,5 @@
 import { IntroPage, PageWrapper } from "./components";
-import { ProfileOverviewWithSocialScore } from "./pages";
+import { ContentAnalysis, ProfileOverviewWithSocialScore } from "./pages";
 
 const TTReport = () => {
     return (
@@ -8,6 +8,10 @@ const TTReport = () => {
 
             <PageWrapper platform="tiktok">
                 <ProfileOverviewWithSocialScore platform="tiktok" />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <ContentAnalysis platform="tiktok" type="videos" />
             </PageWrapper>
         </div>
     );
