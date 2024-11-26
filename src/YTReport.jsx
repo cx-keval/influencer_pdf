@@ -3,6 +3,7 @@ import {
     ContentAnalysis,
     ProfileOverviewWithSocialScore,
     AudienceOverviewCredibilityGeography,
+    AudienceDemographyAndTopFollowers,
 } from "./pages";
 
 const YTReport = () => {
@@ -24,6 +25,10 @@ const YTReport = () => {
 
             <PageWrapper platform="youtube">
                 <AudienceOverviewCredibilityGeography platform="youtube" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <AudienceDemographyAndTopFollowers />
             </PageWrapper>
         </div>
     );

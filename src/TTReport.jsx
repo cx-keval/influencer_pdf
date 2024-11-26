@@ -3,6 +3,7 @@ import {
     ContentAnalysis,
     ProfileOverviewWithSocialScore,
     AudienceOverviewCredibilityGeography,
+    AudienceDemographyAndTopFollowers,
 } from "./pages";
 
 const TTReport = () => {
@@ -20,6 +21,10 @@ const TTReport = () => {
 
             <PageWrapper platform="tiktok">
                 <AudienceOverviewCredibilityGeography platform="tiktok" />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <AudienceDemographyAndTopFollowers />
             </PageWrapper>
         </div>
     );

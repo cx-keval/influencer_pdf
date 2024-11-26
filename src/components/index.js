@@ -14,6 +14,9 @@ import AudienceOverview from "./AudienceOverview";
 import AudienceCredibility from "./AudienceCredibility";
 import AudienceGeography from "./AudienceGeography";
 import ProgressBar from "./ProgressBar";
+import GenderSplit from "./GenderSplit";
+import AgeSplit from "./AgeSplit";
+import ProfileItemCard from "./ProfileItemCard";
 
 export {
     IntroPage,
@@ -31,4 +34,7 @@ export {
     AudienceCredibility,
     AudienceGeography,
     ProgressBar,
+    GenderSplit,
+    AgeSplit,
+    ProfileItemCard,
 };

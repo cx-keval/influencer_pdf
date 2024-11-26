@@ -9,6 +9,7 @@ import PageTwo from "./PageTwo";
 import ProfileOverviewWithSocialScore from "./ProfileOverviewWithSocialScore";
 import ContentAnalysis from "./ContentAnalysis";
 import AudienceOverviewCredibilityGeography from "./AudienceOverviewCredibilityGeography";
+import AudienceDemographyAndTopFollowers from "./AudienceDemographyAndTopFollowers";
 
 export {
     PageOne,
@@ -22,4 +23,5 @@ export {
     ProfileOverviewWithSocialScore,
     ContentAnalysis,
     AudienceOverviewCredibilityGeography,
+    AudienceDemographyAndTopFollowers,
 };
