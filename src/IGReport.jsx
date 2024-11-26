@@ -1,5 +1,9 @@
 import { IntroPage, PageWrapper } from "./components";
-import { ContentAnalysis, ProfileOverviewWithSocialScore } from "./pages";
+import {
+    ContentAnalysis,
+    ProfileOverviewWithSocialScore,
+    AudienceOverviewCredibilityGeography,
+} from "./pages";
 
 const IGReport = () => {
     return (
@@ -16,6 +20,10 @@ const IGReport = () => {
 
             <PageWrapper platform="instagram">
                 <ContentAnalysis platform="instagram" type="feed" />
+            </PageWrapper>
+
+            <PageWrapper platform="instagram">
+                <AudienceOverviewCredibilityGeography platform="instagram" />
             </PageWrapper>
         </div>
     );

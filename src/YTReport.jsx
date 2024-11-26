@@ -1,5 +1,9 @@
 import { IntroPage, PageWrapper } from "./components";
-import { ContentAnalysis, ProfileOverviewWithSocialScore } from "./pages";
+import {
+    ContentAnalysis,
+    ProfileOverviewWithSocialScore,
+    AudienceOverviewCredibilityGeography,
+} from "./pages";
 
 const YTReport = () => {
     return (
@@ -16,6 +20,10 @@ const YTReport = () => {
 
             <PageWrapper platform="youtube">
                 <ContentAnalysis platform="youtube" type="videos" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <AudienceOverviewCredibilityGeography platform="youtube" />
             </PageWrapper>
         </div>
     );

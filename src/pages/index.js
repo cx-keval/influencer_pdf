@@ -1,4 +1,3 @@
-import ContentAnalysis from "./ContentAnalysis";
 import PageEight from "./PageEight";
 import PageFive from "./PageFive";
 import PageFour from "./PageFour";
@@ -8,6 +7,8 @@ import PageSix from "./PageSix";
 import PageThree from "./PageThree";
 import PageTwo from "./PageTwo";
 import ProfileOverviewWithSocialScore from "./ProfileOverviewWithSocialScore";
+import ContentAnalysis from "./ContentAnalysis";
+import AudienceOverviewCredibilityGeography from "./AudienceOverviewCredibilityGeography";
 
 export {
     PageOne,
@@ -20,4 +21,5 @@ export {
     PageEight,
     ProfileOverviewWithSocialScore,
     ContentAnalysis,
+    AudienceOverviewCredibilityGeography,
 };
