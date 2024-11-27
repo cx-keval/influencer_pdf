@@ -4,6 +4,9 @@ import {
     ProfileOverviewWithSocialScore,
     AudienceOverviewCredibilityGeography,
     AudienceDemographyAndTopFollowers,
+    TopFollowersWithSimilarProfiles,
+    GrowthRateOnly,
+    PostEngagementPage,
 } from "./pages";
 
 const YTReport = () => {
@@ -29,6 +32,18 @@ const YTReport = () => {
 
             <PageWrapper platform="youtube">
                 <AudienceDemographyAndTopFollowers />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <TopFollowersWithSimilarProfiles />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <GrowthRateOnly platform="youtube" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <PostEngagementPage platform="youtube" />
             </PageWrapper>
         </div>
     );

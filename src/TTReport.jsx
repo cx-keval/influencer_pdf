@@ -4,6 +4,9 @@ import {
     ProfileOverviewWithSocialScore,
     AudienceOverviewCredibilityGeography,
     AudienceDemographyAndTopFollowers,
+    TopFollowersWithSimilarProfiles,
+    GrowthRateOnly,
+    PostEngagementPage,
 } from "./pages";
 
 const TTReport = () => {
@@ -25,6 +28,18 @@ const TTReport = () => {
 
             <PageWrapper platform="tiktok">
                 <AudienceDemographyAndTopFollowers />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <TopFollowersWithSimilarProfiles />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <GrowthRateOnly platform="tiktok" />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <PostEngagementPage platform="tiktok" />
             </PageWrapper>
         </div>
     );

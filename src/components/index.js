@@ -17,6 +17,9 @@ import ProgressBar from "./ProgressBar";
 import GenderSplit from "./GenderSplit";
 import AgeSplit from "./AgeSplit";
 import ProfileItemCard from "./ProfileItemCard";
+import GrowthRateLineChart from "./GrowthRateLineChart";
+import GrowthRateBarChart from "./GrowthRateBarChart";
+import PostEngagementChart from "./PostEngagementChart";
 
 export {
     IntroPage,
@@ -37,4 +40,7 @@ export {
     GenderSplit,
     AgeSplit,
     ProfileItemCard,
+    GrowthRateLineChart,
+    GrowthRateBarChart,
+    PostEngagementChart,
 };
