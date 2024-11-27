@@ -7,22 +7,23 @@ const BrandedInsightsOne = ({ platform }) => {
             <SectionHeader
                 title="Branded Media Performance Insights"
                 description="This section provides insights into the performance of contents featuring branded content by the influencer."
+                className="mb-2"
             />
 
             {platform !== "tiktok" ? (
                 <BrandedGeneralStatsAnalysis
-                    className="mt-2"
                     type={platform === "instagram" ? "reels" : "shorts"}
+                    className="mb-4"
                 />
             ) : null}
 
             <BrandedGeneralStatsAnalysis
-                className="mt-3"
                 type={platform === "instagram" ? "feed" : "videos"}
+                className="mb-4"
             />
 
             {platform === "tiktok" ? (
-                <div className="mt-6">
+                <div>
                     <SectionHeader
                         title="Branded Content"
                         description="This section showcases media content created by the influencer in collaboration with brands."
