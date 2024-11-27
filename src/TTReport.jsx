@@ -7,6 +7,8 @@ import {
     TopFollowersWithSimilarProfiles,
     GrowthRateOnly,
     PostEngagementPage,
+    BrandedInsightsOne,
+    BrandedInsightsTwo,
 } from "./pages";
 
 const TTReport = () => {
@@ -40,6 +42,10 @@ const TTReport = () => {
 
             <PageWrapper platform="tiktok">
                 <PostEngagementPage platform="tiktok" />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <BrandedInsightsOne platform="tiktok" />
             </PageWrapper>
         </div>
     );

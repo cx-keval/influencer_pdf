@@ -7,6 +7,8 @@ import GrowthRateWithPostEngagements from "./GrowthRateWithPostEngagements";
 import GrowthRateOnly from "./GrowthRateOnly";
 import TopHashtagsAndMentions from "./TopHashtagsAndMentions";
 import PostEngagementPage from "./PostEngagementPage";
+import BrandedInsightsOne from "./BrandedInsightsOne";
+import BrandedInsightsTwo from "./BrandedInsightsTwo";
 
 export {
     ProfileOverviewWithSocialScore,
@@ -18,4 +20,6 @@ export {
     GrowthRateOnly,
     TopHashtagsAndMentions,
     PostEngagementPage,
+    BrandedInsightsOne,
+    BrandedInsightsTwo,
 };

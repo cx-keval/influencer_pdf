@@ -7,6 +7,8 @@ import {
     TopFollowersWithSimilarProfiles,
     GrowthRateOnly,
     PostEngagementPage,
+    BrandedInsightsOne,
+    BrandedInsightsTwo,
 } from "./pages";
 
 const YTReport = () => {
@@ -44,6 +46,14 @@ const YTReport = () => {
 
             <PageWrapper platform="youtube">
                 <PostEngagementPage platform="youtube" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <BrandedInsightsOne platform="youtube" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <BrandedInsightsTwo platform="youtube" />
             </PageWrapper>
         </div>
     );

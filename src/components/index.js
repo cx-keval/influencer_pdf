@@ -20,6 +20,8 @@ import ProfileItemCard from "./ProfileItemCard";
 import GrowthRateLineChart from "./GrowthRateLineChart";
 import GrowthRateBarChart from "./GrowthRateBarChart";
 import PostEngagementChart from "./PostEngagementChart";
+import BrandedGeneralStatsAnalysis from "./BrandedGeneralStatsAnalysis";
+import BrandItem from "./BrandItem";
 
 export {
     IntroPage,
@@ -43,4 +45,6 @@ export {
     GrowthRateLineChart,
     GrowthRateBarChart,
     PostEngagementChart,
+    BrandedGeneralStatsAnalysis,
+    BrandItem,
 };
