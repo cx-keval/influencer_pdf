@@ -9,6 +9,8 @@ import {
     PostEngagementPage,
     BrandedInsightsOne,
     BrandedInsightsTwo,
+    MethodologyGlossary,
+    Disclaimer,
 } from "./pages";
 
 const YTReport = () => {
@@ -54,6 +56,14 @@ const YTReport = () => {
 
             <PageWrapper platform="youtube">
                 <BrandedInsightsTwo platform="youtube" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <MethodologyGlossary platform="youtube" />
+            </PageWrapper>
+
+            <PageWrapper platform="youtube">
+                <Disclaimer platform="youtube" />
             </PageWrapper>
         </div>
     );

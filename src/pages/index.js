@@ -9,6 +9,8 @@ import TopHashtagsAndMentions from "./TopHashtagsAndMentions";
 import PostEngagementPage from "./PostEngagementPage";
 import BrandedInsightsOne from "./BrandedInsightsOne";
 import BrandedInsightsTwo from "./BrandedInsightsTwo";
+import MethodologyGlossary from "./MethodologyGlossary";
+import Disclaimer from "./Disclaimer";
 
 export {
     ProfileOverviewWithSocialScore,
@@ -22,4 +24,6 @@ export {
     PostEngagementPage,
     BrandedInsightsOne,
     BrandedInsightsTwo,
+    MethodologyGlossary,
+    Disclaimer,
 };

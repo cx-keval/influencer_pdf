@@ -9,6 +9,8 @@ import {
     TopHashtagsAndMentions,
     BrandedInsightsOne,
     BrandedInsightsTwo,
+    MethodologyGlossary,
+    Disclaimer,
 } from "./pages";
 
 const IGReport = () => {
@@ -54,6 +56,14 @@ const IGReport = () => {
 
             <PageWrapper platform="instagram">
                 <BrandedInsightsTwo platform="instagram" />
+            </PageWrapper>
+
+            <PageWrapper platform="instagram">
+                <MethodologyGlossary />
+            </PageWrapper>
+
+            <PageWrapper platform="instagram">
+                <Disclaimer />
             </PageWrapper>
         </div>
     );

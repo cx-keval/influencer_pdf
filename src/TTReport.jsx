@@ -9,6 +9,8 @@ import {
     PostEngagementPage,
     BrandedInsightsOne,
     BrandedInsightsTwo,
+    MethodologyGlossary,
+    Disclaimer,
 } from "./pages";
 
 const TTReport = () => {
@@ -46,6 +48,14 @@ const TTReport = () => {
 
             <PageWrapper platform="tiktok">
                 <BrandedInsightsOne platform="tiktok" />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <MethodologyGlossary platform="tiktok" />
+            </PageWrapper>
+
+            <PageWrapper platform="tiktok">
+                <Disclaimer platform="tiktok" />
             </PageWrapper>
         </div>
     );
